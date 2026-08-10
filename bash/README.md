@@ -5,7 +5,7 @@ Markdown.
 # Bash Arithmetic Calculator
 
 ## Purpose
-To take user input and perform the four arithmetic calculations.
+To take user input and perform the four arithmetic calculations & handle division by zero.
 
 ## Concepts Practised
 - Variables.
