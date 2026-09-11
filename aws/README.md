@@ -4,7 +4,4 @@ My goal is to build a strong foundation and critical cloud and infrastructure sk
 
 Topics I am currently learning:
 
-AWS fundementals
-IAM
-EC2
-Security Groups & Cloud Networking.
+AWS fundementals, IAM, EC2 and Security Groups & Cloud Networking.
