@@ -1,0 +1,5 @@
+instances = {
+  development = "t2.micro"
+  testing     = "t2.micro"
+  production  = "t2.micro"
+}
