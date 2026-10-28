@@ -32,8 +32,8 @@ instance_type = "t2.micro
 
 ## Challenges
 
-In my first attempt I experienced an issue configuring my ami. The main issue was my chosen ami was unavailable in my selected region.
-I overcame this by confirming by region in Ubuntu: command - aws configure get region. The output was eu-north-1, so I changed the
+In my first attempt I experienced an issue configuring my AMI. The main issue was my chosen AMI was unavailable in my selected region.
+I overcame this by confirming by region in Ubuntu: command - AWS configure get region. The output was eu-north-1, so I changed the
 configuration to reflect the correct format and confirmed it was place by using: terraform format & terraform validate. I also came across an
 error-code because my 'provider' was not configured properly. I had to use the Terraform directory to find the code for displaying my provider. 
 
