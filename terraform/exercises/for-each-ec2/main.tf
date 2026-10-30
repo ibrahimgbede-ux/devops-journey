@@ -7,6 +7,20 @@ resource "aws_instance" "practice" {
   }
 }
 
+
+terraform {
+  required_providers {
+    aws = {
+      source  = "hashicorp/aws"
+      version = "~> 6.0"
+    }
+  }
+}
+
+provider "aws" {
+  region = "eu-north-1"
+}
+
 # Telling Terraform what to build
 
 #Build an EC2 instance for each environment defined in the 'instances' variable.
