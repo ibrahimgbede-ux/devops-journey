@@ -40,11 +40,16 @@ Being my first pipeline it is configured to print a message confirming the autom
 3) GitHub Actions.
 
 ## 6. Evidence
+<img width="820" height="355" alt="Screenshot 2026-11-02 201236" src="https://github.com/user-attachments/assets/84d2713e-4dfb-4329-aff1-ac1a28e67a3e" />
+<img width="1403" height="138" alt="Screenshot 2026-11-02 064935" src="https://github.com/user-attachments/assets/b96e266b-d03b-41ac-90c8-70034c041ccb" />
+
+
 
 ## 7. Challenges and solutions
 
 My workflow file was visible locally, but not in my Github repository.
 I committed the change but forgot to push it to the remote repository.
-I solved using git push
+I solved using git push.
+First pipeline failed due to syntax error in ci.yml configuration file.
 ## 
 
