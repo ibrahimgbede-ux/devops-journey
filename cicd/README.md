@@ -1,4 +1,4 @@
-### 1.What is CI/CD? 
+### 1 .What is CI/CD? 
 
 CI/CD stands for Continuous Intergration and Continuous Deployment.
 It is a software practice for automating three things:
@@ -9,7 +9,7 @@ It is a software practice for automating three things:
 CI refers to continuously merging changes into a common repository, which triggers automated building and test. 
 Wheres CD is the automated deployment of apps or features subsequent to passing tests. 
 
-## 2.Benefits of CI/CD
+## 2. Benefits of CI/CD
 
 There are a number of key benefits to CI/CD including:
 1) Speed.
@@ -19,8 +19,11 @@ There are a number of key benefits to CI/CD including:
 5) Consistency.
 6) Continuous feedback.
 
-## 3.Tools used
+## 3. Tools used
 
+1) ci.yml
+2) Ubuntu
+3) GitActions
 
 ## 4.How my pipeline works
 Being my first pipeline it is configured to print a message confirming the automation works.
@@ -28,6 +31,7 @@ Being my first pipeline it is configured to print a message confirming the autom
 2) This push triggered triggered the workflow in GitActions.
 3) The runner in Ubuntu was located 
 5) The command is succesfully executed.
+
 ## 5.Concepts learned
 1) Workflows.
 2) YAML.
