@@ -25,21 +25,24 @@ There are a number of key benefits to CI/CD including:
 2) Ubuntu
 3) GitActions
 
-## 4.How my pipeline works
+## 4. How my pipeline works
+
 Being my first pipeline it is configured to print a message confirming the automation works.
 1) I pushed my ci.yml configuration file to Github.
 2) This push triggered triggered the workflow in GitActions.
 3) The runner in Ubuntu was located 
 5) The command is succesfully executed.
 
-## 5.Concepts learned
+## 5. Concepts learned
+
 1) Workflows.
 2) YAML.
 3) GitHub Actions.
 
-## 6.Evidence
+## 6. Evidence
 
-## 7.Challenges and solutions
+## 7. Challenges and solutions
+
 My workflow file was visible locally, but not in my Github repository.
 I committed the change but forgot to push it to the remote repository.
 I solved using git push
