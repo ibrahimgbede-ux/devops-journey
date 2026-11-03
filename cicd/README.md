@@ -1,7 +1,7 @@
 ### 1 .What is CI/CD? 
 
 CI/CD stands for Continuous Intergration and Continuous Deployment.
-It is a software practice for automating three things:
+Are software development practices for automating three aspects:
 1) Building code. 
 2) Testing code.
 3) Deploying code.
