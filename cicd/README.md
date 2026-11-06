@@ -1,6 +1,6 @@
 ### 1 .What is CI/CD? 
 
-CI/CD stands for Continuous Intergration and Continuous Deployment.
+CI/CD stands for Continuous Integration and Continuous Deployment.
 Are software development practices for automating three aspects:
 1) Building code. 
 2) Testing code.
@@ -50,6 +50,4 @@ Being my first pipeline it is configured to print a message confirming the autom
 My workflow file was visible locally, but not in my Github repository.
 I committed the change but forgot to push it to the remote repository.
 I solved using git push.
-First pipeline failed due to syntax error in ci.yml configuration file.
-## 
 
