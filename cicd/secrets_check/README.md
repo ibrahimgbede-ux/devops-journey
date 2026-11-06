@@ -40,7 +40,7 @@ GitHub Actions log confirmed the environment variable does contain a value.
 
 <img width="597" height="118" alt="Screenshot 2026-11-05 215523" src="https://github.com/user-attachments/assets/e6eaa235-524c-4513-918b-6e3ee6a3350f" />
 
-
+<img width="858" height="100" alt="Screenshot 2026-11-06 094622" src="https://github.com/user-attachments/assets/2220923b-911d-4d17-a65a-488d6defd72b" />
 
 
 ## Key Lessons
