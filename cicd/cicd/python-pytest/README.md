@@ -1,7 +1,7 @@
 ## Python CI Pipeline with GitHub Actions
 
 ### Project Overview
-I demonstared how to configure Continuous Integreation (CI), using Python, pytest and GitHub Actions. I built a calculator function in Python and configured GitHub Actions to automate test execution, which reduces the potential for unnoticed bugs and repetitive manual testing.
+I demonstrated how to configure Continuous Integration (CI), using Python, pytest and GitHub Actions. I built a calculator function in Python and configured GitHub Actions to automate test execution, which reduces the potential for unnoticed bugs and repetitive manual testing.
 
 I wanted to be able identify bugs as early as possible. There are several benefits to automated testing, such as:
 
@@ -22,16 +22,8 @@ The workflow is triggered by a push or pull request and is executed by the Ubunt
 | YAML | Used to define the workflow instructions; actions to be taken and their order.|
 
 ### Project Structure
-CICD/
-├── .github/
-│   └── workflows/
-│       └── ci.yml
-└── python-ci/
-    ├── calculator.py
-    ├── test_calculator.py
-    ├── requirements.txt
-    ├── .gitignore
-    └── README.md
+<img width="495" height="257" alt="image" src="https://github.com/user-attachments/assets/84670e99-6b7c-4a36-98ea-9bd96b44ba47" />
+
 
 #### How the CI Pipeline Works
 1. **Trigger**	GitHub Actions is started by a push or pull request.
@@ -54,7 +46,8 @@ I had two files name ci.yml. The newer one was in the wrong, not under .github/w
 2. Checking if pytest detects broken code (regressions)
 I changed my original function from: return a + b, to return a - b whilst keeping the original assert check the same. When I ran the test is failed as expected and after correcting the test passed.
 
-![alt text](<Screenshot 2026-11-12 203325.png>)
+<img width="1217" height="263" alt="Screenshot 2026-11-12 203325" src="https://github.com/user-attachments/assets/469bc4b3-6582-4326-90fc-ae80e7e8eed2" />
+
 
 3. Managing virtual environments:
 I learned how to manage virtual enviroments and requirements.txt and better understood how developers can clone the environment and avert compatibility issues.
