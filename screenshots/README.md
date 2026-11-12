@@ -11,3 +11,10 @@ Visual evidence of my DevOps projects and practical exercises.
 
 <img width="960" height="213" alt="Screenshot 2026-10-30 081252" src="https://github.com/user-attachments/assets/b70c2ee2-3a4f-42c3-92d1-2b8646cfc077" />
 
+## CI
+#### CI using Python, pytest and GitHub Actions
+<img width="695" height="193" alt="image" src="https://github.com/user-attachments/assets/ea984c7b-471e-4171-ae4b-1f41e2be15bb" />
+
+<img width="687" height="238" alt="image" src="https://github.com/user-attachments/assets/79d6c9f2-a014-4ddb-ba4e-a63c44dd2ee8" />
+
+<img width="922" height="532" alt="image" src="https://github.com/user-attachments/assets/c8582527-ca5e-44fc-92df-11a78daae488" />
