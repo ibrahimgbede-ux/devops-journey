@@ -17,4 +17,5 @@ Visual evidence of my DevOps projects and practical exercises.
 
 <img width="687" height="238" alt="image" src="https://github.com/user-attachments/assets/79d6c9f2-a014-4ddb-ba4e-a63c44dd2ee8" />
 
-<img width="922" height="532" alt="image" src="https://github.com/user-attachments/assets/c8582527-ca5e-44fc-92df-11a78daae488" />
+<img width="752" height="92" alt="image" src="https://github.com/user-attachments/assets/c4d2919d-c413-421c-b12b-ca9e1c24df61" />
+
