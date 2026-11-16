@@ -1,0 +1,33 @@
+### Understanding localhost, ports and Python web servers
+
+**`http://localhost:8000`**
+
+Imagine my computer is a hotel.
+
+- **localhost:** The hotel (my own computer).
+- **8000:** The room number or doorway (port).
+- **Python web server:** The receptionist listening at doorway 8000.
+- **Firefox:** The visitor making a request.
+
+**What happens when I visit localhost:8000?**
+
+1. Firefox sends an HTTP request to my computer on port 8000.
+2. My Python web server receives the request.
+3. The request handler (`MyHandler`) determines how to respond.
+4. The server sends an HTTP response back to Firefox.
+5. Firefox displays the response.
+
+**Why must the server keep running?**
+
+The Python web server must remain running to listen for and respond to requests.
+
+If the server stops, Firefox cannot connect to it on port 8000 unless another application is listening there.
+
+**Why test localhost before Docker?**
+
+My Python application is like an engine, while Docker is like the vehicle containing it.
+
+Testing the application locally confirms that the engine works before I package it inside a Docker container.
+
+**Key takeaway:** Visiting `localhost:8000` allows me to test communication between my browser and a web application running locally. Testing components individually makes for easier troubleshooting.
+
