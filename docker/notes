@@ -29,5 +29,5 @@ My Python application is like an engine, while Docker is like the vehicle contai
 
 Testing the application locally confirms that the engine works before I package it inside a Docker container.
 
-**Key takeaway:** Visiting `localhost:8000` allows me to test communication between my browser and a web application running locally. Testing components individually makes for easier troubleshooting.
+**Important:** Visiting `localhost:8000` allows me to test communication between my browser and a web application running locally. Testing components individually makes for easier troubleshooting.
 
