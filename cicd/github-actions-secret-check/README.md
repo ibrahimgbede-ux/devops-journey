@@ -21,9 +21,9 @@ My aim was to create an automated GitHub Actions workflow that checks whether a 
 
 ## Challenges & Troubleshooting
 
-Problem: After I pushed my workflow to GitHub Actions I realised it failed.
+I pushed my workflow to GitHub Actions, but it failed.
 Upon inspection I noticed the error code in GitHub stating "The secret does not exist"
-I reviewed my GitHub seceret configuration and noticed the issue was a discrepancy in naming.
+I reviewed my GitHub secret configuration and noticed the issue was a discrepancy in naming.
 My workflow referenced secrets.API_KEY, but I named it MY_API_KEY in the repository.
 
 After making this change, I pushed it into GitHub and my workflow was successful!
@@ -33,7 +33,7 @@ After making this change, I pushed it into GitHub and my workflow was successful
 
 The workflow completed successfully.
 
-GitHub Actions log confirmed the enviromment variable does contain a value.
+GitHub Actions log confirmed the environment variable does contain a value.
 
 
 ## Key Lessons
