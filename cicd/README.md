@@ -29,9 +29,9 @@ There are a number of key benefits to CI/CD including:
 
 Being my first pipeline it is configured to print a message confirming the automation works.
 1) I pushed my ci.yml configuration file to Github.
-2) This push triggered triggered the workflow in GitActions.
+2) This push triggered the workflow in GitActions.
 3) The runner in Ubuntu was located 
-5) The command is succesfully executed.
+5) The command is successfully executed.
 
 ## 5. Concepts learned
 
