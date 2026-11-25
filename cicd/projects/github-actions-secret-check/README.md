@@ -1,0 +1,64 @@
+## Project Overview
+My aim was to create an automated GitHub Actions workflow that checks whether a repository secret has been successfully passed into an environment variable.
+
+
+## Technologies Used
+
+- GitHub Actions
+- YAML
+- Bash
+- GitHub Secrets
+
+
+## Implementation
+
+1. The workflow is configured to function once the code is pushed into Github.
+2. GitHub Actions provisions an Ubuntu runner to execute the job.
+3. GitHub Actions retrieves the value of the repository secret MY_API_KEY and assigns it to the environment variable API_KEY for that step.
+4. Bash inspects whether API_KEY contains a non-empty value.
+5. GitHub Actions records a success or failure.
+
+
+## Challenges & Troubleshooting
+
+Problem: After I pushed my workflow to GitHub Actions I realised it failed.
+Upon inspection I noticed the error code in GitHub stating "The secret does not exist"
+I reviewed my GitHub secret configuration and noticed the issue was a discrepancy in naming.
+My workflow referenced secrets.API_KEY, but I named it MY_API_KEY in the repository.
+
+<img width="1140" height="346" alt="Screenshot 2026-11-05 214244" src="https://github.com/user-attachments/assets/8b93cb09-58a6-4b8c-abd4-6e06cca2ef9d" />
+
+
+After making this change, I pushed it into GitHub and my workflow was successful!
+
+
+## Results & Evidence
+
+The workflow completed successfully.
+
+GitHub Actions log confirmed the environment variable does contain a value.
+
+<img width="597" height="118" alt="Screenshot 2026-11-05 215523" src="https://github.com/user-attachments/assets/e6eaa235-524c-4513-918b-6e3ee6a3350f" />
+
+<img width="858" height="100" alt="Screenshot 2026-11-06 094622" src="https://github.com/user-attachments/assets/2220923b-911d-4d17-a65a-488d6defd72b" />
+
+
+## Key Lessons
+
+Through this project I learned a number of important DevOps concepts:
+1. CI/CD Automations:
+I learned how GitHub Actions automates a workflow in response to a push trigger.
+
+2. Workflow Structure: 
+I learned about the various elements within a workflow file and the role they plan in 
+preparing an automation, all which are reducing manual steps, allowing early error detection
+and promoting consistency.
+
+3. Secrets:
+I learned how to create and reference a secret as an environment variable, without revealing
+sensitive credentials in order to maintain security.
+
+4. Bash Scripting:
+I used the conditional operator -n to check if my variable was my environment variable contained a value.
+I also used an exit code to indicate whether or not the workflow was successful.
+
