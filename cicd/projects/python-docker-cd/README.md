@@ -76,12 +76,12 @@ I configured an automated syntax validation quality gate using python3 -m py_com
 ![alt text](image-1.png)
 
 ## Troubleshooting commands ##
- docker ps - to inspect running containers.
- dockers ps -a - to inspect all containers.
- dockers  logs python-container-cd - to check app and container failure.
- git show HEAD - to inspect lasted committed changes.
- python3 -m python_compile app.py - to validate Python syntax.
- git log -1 --oneline - to display last commit in one line.
+ 1. docker ps - to inspect running containers.
+ 2. dockers ps -a - to inspect all containers.
+ 3. dockers  logs python-container-cd - to check app and container failure.
+ 4. git show HEAD - to inspect lasted committed changes.
+ 5. python3 -m python_compile app.py - to validate Python syntax.
+ 6. git log -1 --oneline - to display last commit in one line.
  
 ## Key lessons ##
 1. A successful CI/CD workflow does not necessarily mean that an application is functioning correctly.
