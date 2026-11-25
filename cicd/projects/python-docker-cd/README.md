@@ -60,7 +60,7 @@ After an update and push, GitHub Actions reported a successful deployment but I 
 Solution:
 I used docker ps -a to inspect the container and I found the container stopped and terminated. I used docker logs to inspect the reason and realised there was a syntax error; I accidentally included an extra quotation mark at the end of my display message.
 
-3. ## Local Changes Missing from GitHub ##
+## 3. Local Changes Missing from GitHub ##
 Local changes were not reflected on Git
 
 I inspected my committed version using git show HEAD and I noticed my local version included a line of code not found in the Git version. I suspect I forgot to save local changes before committing them.
