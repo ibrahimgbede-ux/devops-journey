@@ -6,7 +6,7 @@ In this project I built a CI/CD environment that automatically updated my Python
 I use py_compile, a non-zero exit-code and a message for syntax validation. If the syntax is invalidate the operation is aborted and the docker image is not built. This allows early error-detection and avoids the deployment of faulty code.
 
 ## Project objectives ##
-My aim was to remove the need to manually update the configuration for my app by configuring my YML workflow to automatically do the the follwing;
+My aim was to remove the need to manually update the configuration for my app by configuring my YML workflow to automatically do the the following;
 1. containerise my web app using Docker
 2. implement CI by using Python to validate syntax
 3. build a Docker image
@@ -43,7 +43,7 @@ I also verified my pipeline worked as intended by negative and positive testing,
 Here I used an if conditional and negation operator. So if the py_compile commands fails, the error image is displayed. Yet it is still crucial to include the exit code, because this ensures the operation is aborted.
 
 ## Challenges and solutions ##
-## 1. Docker Container Name Conflict##
+## 1. Docker Container Name Conflict ##
 
 Problem:
 My deployment failed due to a name conflict; my new container and existing container had the same name. This revealed an underlying issue: GitHub Actions was unable to remove the old container before creating the latest.
@@ -53,7 +53,7 @@ My deployment failed due to a name conflict; my new container and existing conta
 Solution:
 Inspect YML workflow to ensure container removal is properly configured as a step before Docker image building.
 
-## 2. Successful Pipeline but Failed Application##
+## 2. Successful Pipeline but Failed Application ##
 Problem:
 After an update and push, GitHub Actions reported a successful deployment but I could not access the application. This taught me something important: successful deployment is not the same as working application.
 
@@ -65,7 +65,7 @@ Local changes were not reflected on Git
 
 I inspected my committed version using git show HEAD and I noticed my local version included a line of code not found in the Git version. I suspect I forgot to save local changes before committing them.
 
-## 4. Preventing Invalid Code from Reaching Deployment##
+## 4. Preventing Invalid Code from Reaching Deployment ##
    
 Problem:
 I had no means of checking for the validity of syntax, which meant incorrect code could pass to deployment.
